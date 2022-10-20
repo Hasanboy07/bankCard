@@ -1,5 +1,5 @@
 function cardNumber(num) {
-    if (num.length < 16 || num.length > 16 || isNaN(+num)) {
+    if (num.length < 16 || num.length > 16 || !isNaN(+num)) {
         console.log('Bank number will be 16');
     } else if (num.length == 16) {
         let star = '********'
